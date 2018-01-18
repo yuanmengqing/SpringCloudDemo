@@ -1,10 +1,10 @@
-package service.hello;
+package service.discovery;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.cloud.netflix.eureka.server.EnableEurekaServer;
 
-@EnableEurekaServer
+@EnableEurekaServer//声明这是个eureka服务
 @SpringBootApplication
 public class Application {
 
